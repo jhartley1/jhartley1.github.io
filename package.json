@@ -4,12 +4,14 @@
   "description": "",
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "serve": "npx @11ty/eleventy --serve"
+    "serve": "npx @11ty/eleventy --serve",
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./_site/output.css"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "tailwindcss": "^3.4.1"
   }
 }
