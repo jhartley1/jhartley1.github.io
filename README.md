@@ -2,4 +2,8 @@
 
 ## Build
 
-    npx @11ty/eleventy
+    npm run build
+
+## Develop
+
+    npm run watch
