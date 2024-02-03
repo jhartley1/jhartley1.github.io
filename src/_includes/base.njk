@@ -10,11 +10,19 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="text-xl text-bold">Josh Hartley</h1>
+    <header class="p-3">
+        <h1 class="text-2xl font-extrabold">Josh Hartley</h1>
+        <nav>
+            <ul>
+                <li><a class="uppercase" href="/">Home</a></li>
+                <li><a class="uppercase" href="/about">About</a></li>
+                <li><a class="uppercase" href="/projects">Projects</a></li>
+
+            </ul>
+        </nav>
     </header>
-    <main>
-        {{content}}
+    <main class="p-3">
+        {{content | safe}}
     </main>
 </body>
 
