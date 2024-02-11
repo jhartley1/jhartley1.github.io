@@ -4,14 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title or metadata.title }}</title>
+    <title>Josh Hartley</title>
     <meta name="description" content="{{ description or metadata.description }}">
     <link href="/output.css" rel="stylesheet">
 </head>
 
 <body>
-    <header class="p-3">
-        <h1 class="text-2xl font-extrabold">Josh Hartley</h1>
+    <!--
+    <header class="p-8 bg-purple-100 rounded-md flex justify-center">
+       
+        
         <nav>
             <ul>
                 <li><a class="uppercase" href="/">Home</a></li>
@@ -20,10 +22,12 @@
 
             </ul>
         </nav>
+       
     </header>
-    <main class="p-3">
-        {{content | safe}}
-    </main>
+     -->
+
+    {{content | safe}}
+  
 </body>
 
 </html>
